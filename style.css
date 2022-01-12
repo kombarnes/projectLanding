@@ -1,0 +1,19 @@
+.container{
+   
+}
+
+
+
+.header{
+    font-family: 'Pacifico';
+    display: flex;
+}
+
+#nav-bar{
+    font-family: Luxurious Roman;
+}
+
+#header-img{
+    width: 100px;
+    height: auto;
+}
