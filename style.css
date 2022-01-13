@@ -1,19 +1,29 @@
 .container{
-   
+    max-width: 100%;
 }
 
 
-
-.header{
-    font-family: 'Pacifico';
-    display: flex;
+.nav{
+    font-family: Luxurious Roman;
+    font-size: 20pt;
+    height: 50px;
+    width: 100%;
+    background-color: pink;
+    margin: auto;
 }
 
-#nav-bar{
+
+#header-img{
+    width: 400px;
+    height: auto;
+}
+
+.header-1{
+    font-family: Pacifico;
+
+}
+
+#sign-up{
     font-family: Luxurious Roman;
 }
 
-#header-img{
-    width: 100px;
-    height: auto;
-}
