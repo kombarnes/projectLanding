@@ -23,7 +23,7 @@
                 <img src="lotus.png" alt="lotus">
             </div>
 
-            <div class="topnav sticky">
+            <div class="topnav sticky" id="nav-bar">
                 <a href="#header">Home</a>
                 <a href="#video">How to Start Your Journey</a>
                 <a href="#shop">Shop Beginner Plants</a>
@@ -36,13 +36,20 @@
 
     <div>
         <div class="main row justify-content-center">
-            <h1>Planting for Beginners</h1>
+            <h1>Welcome to Plant Parenting</h1>
+        </div>
+        <div class="intro row justify-content-center">
+            <p>Want to start collecting and caring for plants? We've got you covered!</p>
         </div>
         <div class="video" id="video">
             <iframe class="col" width="560" height="315" src="https://www.youtube.com/embed/UUXOli2tX10?start=19"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
+        </div>
+
+        <div class="main row justify-content-center">
+            <h1 id="shop">Shop Beginner Plants</h1>
         </div>
 
         <div class="row justify-content-around">
@@ -58,6 +65,7 @@
                 </div>
             </div>
 
+        
             <div class="card col-lg-4 col-m-4 col-sm-12" id="shop">
                 <img src="pothos.jpg" class="card-img-top" id="pothos" alt="...">
                 <div class="card-body">
@@ -70,7 +78,8 @@
                 </div>
             </div>
 
-            <div class="card col-lg-4 col-m-4 col-sm-12" id="shop">
+
+            <div class="card col-lg-4 col-m-4 col-sm-12">
                 <img src="snake-plant.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h4>Snake Plant</h4>
@@ -86,18 +95,20 @@
 
         <div class="sign-up">
             <div id="header-4">
-                <h4 id="sign-up">Want to receive tips on plant care?
-                    <br>
-                    Sign up now!
+                <h4 id="sign-up">
+                    Subscribe to our <i id="newsletter">Green Thumb Newsletter</i> to receive tips on how to care for
+                    your plant!
                 </h4>
             </div>
+            <br>
             <div>
                 <form action="mailto: https://www.freecodecamp.com/email-submit" id="form">
                     <div>
-                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
                     </div>
+                    <br>
                     <div>
-                        <input type="submit" name="submit" id="submit">
+                        <input type="submit" name="submit" id="submit" value="Sign Up">
                     </div>
                 </form>
             </div>

@@ -37,10 +37,11 @@ body {
     width: 100%;
     text-align: center;
     font-size: 18px;
-    font-family: Luxurious Roman;
+    font-family: Luxurious Roman, monospace;
     color: black;
     padding: 14px 16px;
     border-radius: 15px;
+    flex-wrap: nowrap;
 }
 
 
@@ -49,16 +50,16 @@ body {
     color: white;
 }
 
-@media (min-width: 200px) and (max-width: 990px ) {
-    .topnav{
-        display: flex;
-        flex-direction: column;
-        position: inherit;
-    }
-}
 
 h1 {
     margin: 50px;
+}
+
+.intro{
+    margin: 50px;
+    font-family: Luxurious Roman, monospace;
+    font-size: 20pt;
+    text-align: center;
 }
 
 .video {
@@ -74,46 +75,45 @@ h1 {
 }
 
 .main {
-    font-family: Pacifico;
+    font-family: Pacifico, Arial, Helvetica, sans-serif;
     margin: 20px wheat;
     background-color: wheat;
 }
 
 .sign-up {
-    font-family: Luxurious Roman;
+    font-family: Luxurious Roman, monospace;
     text-align: center;
     display: flex;
     flex-direction: column;
     margin: 50px;
     height: auto;
     padding: 10px;
-    background-color: #7D9417;
+    background-color: lightyellow;
     box-shadow: 10px 10px 5px grey;
     border-radius: 15px;
 }
 
-@media (min-width: 200px) and (max-width: 990px ) {
-    .sign-up{
-        font-family: Luxurious Roman;
-        text-align: center;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        height: auto;
-        padding: 10px;
-        background-color: #7D9417;
-        box-shadow: none;
-        border-radius: 0;
-    }
+input[type=submit]{
+    border-radius: 15pt;
+    padding: 10px;
+    border-style: none;
+    color: #7D9417;
+    width: 500px;
 }
+
+input[type=email]{
+    width: 500px;
+}
+
+
+
 
 body {
     background-color: wheat;
 }
 
 .card{
-    font-family: Luxurious Roman;
+    font-family: Luxurious Roman, monospace;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -123,3 +123,40 @@ body {
     object-fit: cover;
 }
 
+#newsletter{
+    color: #7D9417;
+}
+
+@media (min-width: 200px) and (max-width: 990px ) {
+    .sign-up{
+        font-family: Luxurious Roman, monospace;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+        padding: 10px;
+        background-color: brown;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    input[type=email]{
+        width: auto;
+    }
+    .topnav{
+        display: flex;
+        flex-direction: column;
+        position: inherit;
+    }
+    .main{
+        text-align: center;
+    }
+    input[type=submit]{
+        border-radius: 15pt;
+        padding: 10px;
+        border-style: none;
+        color: #7D9417;
+        width: auto;
+    }
+}
