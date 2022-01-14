@@ -2,14 +2,54 @@
     max-width: 100%;
 }
 
+.image{
+    display: flex;
+    justify-content: center;
+}
 
-.nav{
-    font-family: Luxurious Roman;
-    font-size: 20pt;
+
+
+.topnav{
+    background-color: wheat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+   
+    
+    
+    
+    
+}
+
+.topnav a {
     height: 50px;
     width: 100%;
-    background-color: pink;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-family: Luxurious Roman;
+    color: black;
+    padding: 14px 16px;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    
+  
+    
+    
+   
+}
+
+.topnav a.active {
+    background-color: white;
+    color: #7D9417;
+    
+}
+
+
+.topnav a:hover{
+    background-color: brown;
+    color: white;
 }
 
 
@@ -20,10 +60,15 @@
 
 .header-1{
     font-family: Pacifico;
+    margin: 20px;
 
 }
 
-#sign-up{
+.sign-up{
     font-family: Luxurious Roman;
+    margin: 20px;
 }
+
+
+
 

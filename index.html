@@ -18,23 +18,20 @@
 <body>
 
     <div class="container" id="container">
-        <header class="row justify-content-center" id="header">
-            <div class="image">
-                <img src="logo.jpg" alt="logo" id="header-img">
-            </div>
-            <div class="nav justify-content-center nav-pills nav-justified">
-                <div class="nav-item" id="home">
-                    <a class="nav-link active" href="index.html">Home</a>
+            <header class="header" id="header">
+                <div class="image">
+                    <img src="logo.jpg" alt="logo" id="header-img">
                 </div>
-                <div class="nav-item" id="Plants">
-                    <a class="nav-link" href="beginner-plants.html">Plants</a>
-                </div>
-                <div class="nav-item" id="products">
-                    <a class="nav-link" href="products.html">Products</a>
-                </div>
+                
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="start.html">How to Start Your Journey</a>
+                    <a href="beginner-plants.html">Shop Beginner Plants</a>
+                    </a>
+                  </div>
 
-            </div>
-        </header>
+                </div>
+            </header>
     </div>
 
     <div>
@@ -48,12 +45,20 @@
                 allowfullscreen></iframe>
         </div>
 
-        <div class="sign-up row justify-content-center" id="sign-up">
-            <h4>Want to receive tips on plant care? Sign up now!</h4>
-            <form action="mailto: https://www.freecodecamp.com/email-submit" id="form">
-                <input type="email" name="email" id="email" placeholder="Email">
-                <input type="submit" name="submit" id="submit">
-            </form>
+        <div class="sign-up justify-content-center flex-column align-content-center" id="sign-up">
+            <div class="sign-up">
+                <h4>Want to receive tips on plant care? Sign up now!</h4>
+            </div>
+            <div class="sign-up">
+                <form action="mailto: https://www.freecodecamp.com/email-submit" id="form">
+                    <div class="sign-up">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="sign-up">
+                    <input type="submit" name="submit" id="submit">
+                    </div>
+                </form>
+            </div>
         </div>
         <!--closing div below-->
     </div>
