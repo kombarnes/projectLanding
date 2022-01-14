@@ -1,3 +1,9 @@
+body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
 .container {
     max-width: 100%;
     background-color: wheat;
@@ -37,14 +43,18 @@
     border-radius: 15px;
 }
 
-.topnav a.active {
-    background-color: white;
-    color: #7D9417;
-}
 
 .topnav a:hover {
     background-color: brown;
     color: white;
+}
+
+@media (min-width: 200px) and (max-width: 990px ) {
+    .topnav{
+        display: flex;
+        flex-direction: column;
+        position: inherit;
+    }
 }
 
 h1 {
@@ -82,16 +92,34 @@ h1 {
     border-radius: 15px;
 }
 
+@media (min-width: 200px) and (max-width: 990px ) {
+    .sign-up{
+        font-family: Luxurious Roman;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+        padding: 10px;
+        background-color: #7D9417;
+        box-shadow: none;
+        border-radius: 0;
+    }
+}
+
 body {
     background-color: wheat;
 }
 
 .card{
     font-family: Luxurious Roman;
-    width: 18rem;
-    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.card-body{
-    
+.card-img-top{
+    height: 400px;
+    object-fit: cover;
 }
+
