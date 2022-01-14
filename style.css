@@ -62,11 +62,9 @@ h1 {
     text-align: center;
 }
 
-.video {
-    background-color: wheat;
-    flex-direction: row;
+#video{
     justify-content: center;
-    margin: wheat;
+    position: relative;
 }
 
 #header-img {
