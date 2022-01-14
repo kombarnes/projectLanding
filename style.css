@@ -24,6 +24,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999;
   }
 .topnav a {
     height: 50px;
@@ -83,4 +84,14 @@ h1 {
 
 body {
     background-color: wheat;
+}
+
+.card{
+    font-family: Luxurious Roman;
+    width: 18rem;
+    flex-direction: row;
+}
+
+.card-body{
+    
 }
